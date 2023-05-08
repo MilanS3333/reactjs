@@ -1,0 +1,51 @@
+.s3 {
+  margin-top: 100px;
+}
+.gif-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-template-rows: ; */
+  grid-gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.gif-img {
+  display: flex;
+}
+.gif-img img {
+  width: 50px;
+  object-fit: contain;
+}
+.gif-img p {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+.fup {
+  width: 50% !important;
+  line-height: 50px;
+  font-size: 48px;
+}
+
+@media screen and (max-width: 1200px) {
+  .fup {
+    width: 70% !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .gif-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .fup {
+    width: 100% !important;
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .foo {
+    display: none !important;
+  }
+}

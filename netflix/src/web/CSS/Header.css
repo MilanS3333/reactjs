@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: #000;
+}
+
+.header-section {
+  background: linear-gradient(0deg, rgb(0, 0, 0), transparent 50%, rgb(0, 0, 0)),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/d049a3bd-40ee-411b-9f16-d1def798d43b/d6aeb5a9-b14c-42d4-999e-c2f0d6c60f04/IN-en-20230313-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.logo {
+  max-width: 180px;
+}
+
+.language {
+  display: flex;
+  text-align: center;
+  border: 0.5px solid #fff;
+  width: 150px;
+  justify-content: space-evenly;
+  padding: 8px 0px;
+  border-radius: 5px;
+  position: relative;
+  color: #fff;
+}
+
+.fa-globe {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+.fa-caret-down {
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  transform: translateY(-50%);
+}
+
+.language-selection {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+  width: 100%;
+  text-align: center;
+}
+
+.custome-btn {
+  background-color: #e50914;
+  color: #fff;
+  margin-left: 30px;
+  font-weight: 600;
+}
+
+.get-started {
+  /* margin: 100px auto; */
+  height: 80vh;
+  display: grid;
+  place-items: center;
+}
+
+.get-started-set h1 {
+  font-size: 55px;
+  font-weight: bolder;
+}
+
+form {
+  width: 60% !important;
+  margin: auto !important;
+}
+
+form input {
+  background: #040408 !important;
+  color: #fff !important;
+}
+
+form input:focus {
+  background: #040408 !important;
+  opacity: 0.7 !important;
+  box-shadow: none !important;
+}
+
+form button {
+  width: 220px !important;
+  font-size: 22px !important;
+}
+
+.br {
+  padding: 5px;
+  background-color: #2e2b2b;
+}
+
+@media screen and (max-width: 992px) {
+  form input,
+  button {
+    font-size: 20px !important;
+    font-weight: 200 !important;
+  }
+  .custome-btn {
+    margin-left: 10px;
+    font-size: 16px !important;
+  }
+  .header-section {
+    height: 80vh;
+  }
+  .get-started {
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 100px;
+  }
+  .language {
+    width: 60px;
+  }
+  .language-selection {
+    /* display: none; */
+    opacity: 0;
+  }
+  .language-selection option {
+    opacity: 1;
+  }
+  .fa-caret-down {
+    right: 10%;
+  }
+  .get-started-set h1 {
+    font-size: 35px;
+  }
+  .get-started-set h3 {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .get-started-set h5 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .clas-flex {
+    display: block !important;
+  }
+  form {
+    width: 80%;
+  }
+  form input,
+  button {
+    font-size: 20px !important;
+    font-weight: 200 !important;
+  }
+  form button {
+    margin-top: 1rem;
+  }
+  .header-section {
+    height: 70vh;
+  }
+  .get-started {
+    height: 50vh;
+  }
+}

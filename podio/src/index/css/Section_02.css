@@ -1,0 +1,43 @@
+.s2 {
+  background-image: url("../../../public/images/chancelightt.jpg");
+  /* height: 40vh; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(36, 113, 184, 1);
+  padding: 100px 0;
+}
+._line {
+  border-bottom: 1px solid #fff;
+  padding: 3px 0;
+}
+.s2-img-holder {
+  width: 80%;
+  margin: auto;
+}
+.h1-div {
+  font-size: 53px;
+  line-height: 55px;
+  font-weight: 300;
+}
+.dosw {
+  color: #00687a !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .dosw {
+    display: block;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .s2 {
+    background-image: url("");
+  }
+  .s2-img-holder {
+    width: 95%;
+  }
+  .rs-ma {
+    margin-top: 4rem !important;
+  }
+}

@@ -1,0 +1,48 @@
+/* for accordion color and background color and border */
+
+.bg-color {
+  background-color: rgb(45, 45, 45);
+  color: #fff;
+  border-radius: 0 !important;
+  font-size: 26px !important;
+}
+.bg-color:focus {
+  border-bottom: 3px solid #000 !important;
+  box-shadow: none !important;
+}
+
+.bg-color:not(.collapsed) {
+  background-color: rgb(45, 45, 45) !important;
+  color: #fff !important;
+}
+
+.acc-body {
+  background-color: rgb(45, 45, 45) !important;
+  color: #fff !important;
+  font-size: 26px !important;
+}
+
+.border {
+  border: none !important;
+}
+
+/* for accordion font awosm icon */
+.bg-color::after {
+  background-image: url("../../../public/images/plus-solid.svg") !important;
+  scale: 1.5;
+}
+.bg-color:not(.collapsed)::after {
+  transform: rotate(-45deg) !important;
+}
+
+@media screen and (max-width: 576px) {
+  .bg-color {
+    font-size: 16px !important;
+  }
+  .acc-body {
+    font-size: 16px !important;
+  }
+  .bg-color::after {
+    scale: 1;
+  }
+}

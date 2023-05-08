@@ -1,0 +1,70 @@
+.hero {
+  /* background-color: rgba(0, 56, 148, 0.5); */
+  background-image: linear-gradient(
+      rgba(0, 56, 148, 0.5),
+      rgba(0, 56, 148, 0.5)
+    ),
+    url("../../../public/images/podio-hp-hero.jpeg");
+  height: 80vh;
+  background-size: cover;
+  background-position: right;
+}
+
+.hero-brand {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(238, 238, 238, 1);
+  height: 150px;
+  line-height: 150px;
+}
+
+.hero-btn {
+  border-radius: 0px 5px 5px 0px !important;
+  width: 150px;
+  font-size: 14px !important;
+}
+
+.hero-input {
+  border-radius: 5px 0px 0px 5px !important;
+  font-size: 14px !important;
+}
+
+.hero-input-container {
+  width: 350px;
+}
+
+.hero-t {
+  display: grid;
+  place-items: center;
+}
+
+.hero .container h1 {
+  font-size: 65px;
+  line-height: 70px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.hero .container p {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 992px) {
+  .hero-brand {
+    display: block;
+    text-align: center;
+    height: auto;
+    line-height: 100px;
+  }
+  /* .hero-input-container {
+    max-width: 100%;
+  } */
+}
+
+@media screen and (max-width: 576px) {
+  .hero .container p {
+    font-size: 18px;
+  }
+}

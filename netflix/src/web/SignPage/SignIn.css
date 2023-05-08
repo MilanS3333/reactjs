@@ -1,0 +1,168 @@
+.background {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/2e884ce2-da1c-4501-ab9a-10c534d30975/6973a9ea-02b2-4de9-9006-d7d224c9b75d/IN-en-20230327-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  /* height: 100vh; */
+}
+.background .navbar-brand .sign-in-logo {
+  scale: 1.2;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.login-logo {
+  width: 200px !important;
+}
+.signin-form {
+  background-color: rgba(0, 0, 0, 0.8);
+  /* width: fit-content; */
+  width: 450px;
+  margin: auto;
+  margin-top: 25px;
+  padding: 60px;
+  border-radius: 4px;
+}
+.signin-form form {
+  width: 100% !important;
+}
+.signin-form .text {
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: #333333 !important;
+  padding: 10px 20px;
+  margin: 15px 0;
+  border-radius: 4px;
+  border: none;
+}
+.signin-form button {
+  display: block;
+  width: 100% !important;
+  background-color: #e50914;
+  border-radius: 4px;
+  padding: 12px 0;
+  border: none;
+  color: #fff;
+  font-size: 15px !important;
+  font-weight: 600;
+  margin-top: 40px;
+}
+.signin-form label {
+  font-size: 35px;
+  font-weight: 600;
+}
+.signin-form .check {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.signin-form .check .chbox {
+  scale: 1.4;
+  margin-right: 4px;
+}
+.needhelp {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+.needhelp:hover {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: underline;
+}
+.signup {
+  color: #fff;
+  text-decoration: none;
+}
+.signup:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.sign-netflix {
+  margin-top: 80px;
+}
+.bot {
+  font-size: 13px;
+  margin-bottom: 80px;
+}
+.learn {
+  text-decoration: none;
+}
+.learn:hover {
+  text-decoration: underline;
+}
+.opsity {
+  color: rgba(255, 255, 255, 0.5);
+}
+.foter {
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 80px;
+}
+.width {
+  width: 70%;
+  margin: auto;
+  padding: 30px;
+}
+/* 553.6 */
+.terms {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin: 25px 0;
+}
+.terms a {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+}
+.terms a:hover {
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: underline;
+}
+.on-ft {
+  opacity: 0.4;
+  margin: 30px 0 !important;
+}
+.call {
+  color: rgba(255, 255, 255, 0.4);
+}
+.call a {
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+}
+.call a:hover {
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+  .width {
+    width: 100%;
+    /* margin: auto;
+  padding: 30px; */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .signin-form {
+    /* background-color: #000; */
+    width: 100%;
+    /* padding: 60px; */
+  }
+  .background {
+    background-image: url();
+  }
+  .foter {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 80px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .terms {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .signin-form {
+    padding: 60px 30px;
+  }
+}

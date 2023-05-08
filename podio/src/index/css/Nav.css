@@ -1,0 +1,159 @@
+/* .nam {
+  border-bottom: 1px solid #d8dcdf;
+  padding: 15px 10px;
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 8fr 3fr;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 999;
+} */
+.navbar {
+  position: sticky !important;
+  top: 0;
+}
+
+.logo-container .logo {
+  height: 1.875rem;
+  padding-left: 20px;
+}
+
+button {
+  padding: 5px 20px;
+  border-radius: 30px !important;
+  font-size: 14px;
+  border: none;
+  color: #000;
+  background-color: #fff;
+}
+.btn-sign-in {
+  background-color: #00687a !important;
+  color: #fff;
+}
+
+.media-btn {
+  margin-left: 20px;
+}
+
+.login .btn-sign-in:hover {
+  opacity: 0.9;
+}
+
+/* .rs-nav {
+  display: none;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin-top: 5px;
+}
+
+.nav-list li {
+  margin-right: 3rem;
+  font-size: 15px;
+}
+
+.nav-list .sub-menu {
+  display: none;
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  text-align: left;
+}
+
+.sub-menu li a {
+  width: 150px;
+  display: block;
+  margin: 20px 0;
+}
+
+.hover-for-menu {
+  position: relative;
+}
+
+.fa-angle-down {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.hover-for-menu:hover .fa-angle-down {
+  display: none;
+}
+
+.fa-angle-up {
+  font-size: 12px;
+  margin-left: 10px;
+  opacity: 0;
+}
+
+.hover-for-menu:hover .fa-angle-up {
+  opacity: 1;
+}
+
+.hover-for-menu:hover .sub-menu {
+  display: block;
+}
+
+.login {
+  text-align: right;
+  padding-right: 10px;
+}
+
+button {
+  padding: 5px 20px;
+  border-radius: 30px !important;
+  font-size: 14px;
+  border: none;
+  color: #000;
+  background-color: #fff;
+}
+.btn-sign-in {
+  background-color: #00687a !important;
+  color: #fff;
+}
+
+.media-btn {
+  margin-left: 20px;
+}
+
+.login .btn-sign-in:hover {
+  opacity: 0.9;
+}
+
+.active {
+  display: block;
+}
+
+@media screen and (max-width: 992px) {
+  .nam {
+    grid-template-columns: 10fr 1fr 1fr;
+  }
+  .menu {
+    display: none;
+  }
+  .media-btn {
+    display: none;
+  }
+  .rs-nav {
+    display: block;
+    text-align: right;
+  }
+  .rs-nav button {
+    background-color: transparent;
+    border: none;
+  }
+  .btn-login {
+    padding: 5px 0 !important;
+  }
+  .login {
+    order: 1;
+  }
+  .rs-nav {
+    order: 2;
+  }
+} */

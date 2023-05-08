@@ -1,0 +1,39 @@
+.opecity {
+  opacity: 0.8;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 10px;
+}
+.footer a {
+  color: #fff;
+  font-size: 14px;
+}
+
+/* @media screen and (max-width: 1200px) {
+  .opecity {
+    margin-left: 20px;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .language-2 {
+    width: 150px !important;
+    padding-right: 5px;
+  }
+  .selection {
+    opacity: 1 !important;
+  }
+  .down {
+    right: 5%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .footer {
+    grid-template-columns: 1fr 1fr;
+  }
+  /* .opecity {
+    margin-left: 0px;
+  } */
+}
