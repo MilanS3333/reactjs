@@ -1,0 +1,18 @@
+{
+  "details": [
+    {
+      "name": "John ha",
+      "email": "johnhammer@example.com",
+      "phone": 1234567890,
+      "country": "India",
+      "id": 1
+    },
+    {
+      "name": "Milan",
+      "email": "milansonagara333@gmail.com",
+      "phone": "9979371194",
+      "country": "India",
+      "id": 8
+    }
+  ]
+}
